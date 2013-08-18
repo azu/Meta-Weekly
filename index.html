@@ -30,6 +30,7 @@
             </div>
         </div>
     </div>
+
     <div class="pure-u mainContent">
         <div id="main">
             <p>Pure HTML5 Boilerplate</p>
@@ -40,30 +41,8 @@
 <script>window.jQuery || document.write('<script src="vendor/jquery/jquery.min.js"><\/script>')</script>
 <script src="vendor/handlebars.js/handlebars.js"></script>
 <script src="js/handlebar-extra.js"></script>
-<script id="Handlebars-Template" type="text/x-handlebars-template">
-    <table class="pure-table pure-table-bordered">
-        <thead>
-        <tr>
-            <th><span class="table-header-label">Website</span></th>
-            <th><span class="table-header-label">Updated</span></th>
-            <th><span class="table-header-label">Keywords</span></th>
-            <th><span class="table-header-label">Twitter</span></th>
-        </tr>
-        </thead>
-        {{#each this}}
-        <tr>
-            <td><a href="{{url}}" title="{{title}}">{{title}}</a>{{rssLink rss title}}</td>
-            <td><span class="site-updated-label-{{updated}}"></span>{{updated}}</td>
-            <td>
-                {{#each keywords}}
-                <span class="site-keyword">{{this}}</span>
-                {{/each}}
-            </td>
-            <td><span class="site-twitter">{{twitterLink twitter}}</span></td>
-        </tr>
-        {{/each}}
-    </table>
-</script>
+<script src="js/template.js"></script>
+<script src="js/data.js"></script>
 <script src="js/main.js"></script>
 
 </body>

@@ -1,0 +1,22 @@
+<table class="pure-table pure-table-bordered">
+    <thead>
+    <tr>
+        <th><span class="table-header-label">Website</span></th>
+        <th><span class="table-header-label">Updated</span></th>
+        <th><span class="table-header-label">Keywords</span></th>
+        <th><span class="table-header-label">Twitter</span></th>
+    </tr>
+    </thead>
+    {{#each this}}
+    <tr>
+        <td><a href="{{url}}" title="{{title}}">{{title}}</a>{{rssLink rss title}}</td>
+        <td><span class="site-updated-label-{{updated}}"></span>{{updated}}</td>
+        <td>
+            {{#each keywords}}
+            <span class="site-keyword">{{this}}</span>
+            {{/each}}
+        </td>
+        <td><span class="site-twitter">{{twitterLink twitter}}</span></td>
+    </tr>
+    {{/each}}
+</table>

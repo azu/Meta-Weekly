@@ -11,7 +11,25 @@ module.exports = (grunt) ->
           cleanTargetDir: true # targetDirを削除するかどうか
           cleanBowerDir: false # bowerのcomponentsディレクトリを削除するかどうか
 
+    handlebars:
+      compile:
+        options:
+          namespace: "MyApp.Templates"
+          processName: (filepath) =>
+            pieces = filepath.split "/";
+            return pieces[pieces.length - 1].replace(/.hbs$/, '')
+        files:
+          "./js/template.js": "template/*.hbs"
 
+    json:
+      compile:
+        options:
+          namespace: 'MyJSONData',
+          includePath: true,
+          processName: (filename) =>
+            return filename.toLowerCase()
+        src: ['data.json']
+        dest: './js/data.js'
 
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-contrib-concat'
@@ -21,6 +39,8 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-connect'
   grunt.loadNpmTasks 'grunt-regarde'
   grunt.loadNpmTasks 'grunt-bower-task'
+  grunt.loadNpmTasks 'grunt-contrib-handlebars'
+  grunt.loadNpmTasks 'grunt-json'
 
-  grunt.registerTask 'default', ['bower:install']
+  grunt.registerTask 'default', ['bower:install', 'handlebars', 'json']
 
