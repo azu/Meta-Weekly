@@ -2,8 +2,6 @@ body {
   color: #777777; }
 
 .sidebar {
-  left: 500px;
-  width: 150px;
   padding: 2em 0px; }
 
 .mainContent {
