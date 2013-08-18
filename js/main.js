@@ -47,11 +47,23 @@ function filterByUpdateType(type) {
     });
 }
 
+function showResetButton() {
+    $(".nav-updated-helper").show()
+}
+function hideResetButton() {
+    $(".nav-updated-helper").hide()
+}
 $(".js-filer-updated a").on("click", function (evt) {
     evt.preventDefault();
     var updatedType = evt.target.href.split("#").pop();
     var newContext = filterByUpdateType(updatedType);
     render(newContext);
+    showResetButton();
+});
+
+$("#js-updated-reset-button").on("click", function (evt) {
+    render(context);
+    hideResetButton();
 });
 $(function () {
     render(context);

@@ -26,6 +26,19 @@ $fortnightly-color: #d19dcb;
 $monthly-color: #40c365;
 $other-color: #8156a7;
 $twitter-color: #5AB4C8;
+.nav-updated-helper {
+  text-align: center;
+  padding: 5px 0;
+  display: none;
+}
+
+.pure-button-warning {
+  margin: 0 auto;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(223, 117, 20);
+}
 
 .site-updated-label-daily {
   @extend .label-mark;
@@ -60,7 +73,7 @@ $twitter-color: #5AB4C8;
 }
 
 .site-rss {
-  margin-left:0.3em;
+  margin-left: 0.3em;
   img {
     width: 24px;
     vertical-align: middle;

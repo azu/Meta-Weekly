@@ -16,6 +16,18 @@ body {
   margin-right: 0.5em;
   border-radius: 3px; }
 
+.nav-updated-helper {
+  text-align: center;
+  padding: 5px 0;
+  display: none; }
+
+.pure-button-warning {
+  margin: 0 auto;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #df7514; }
+
 .site-updated-label-daily {
   background: #ffc94c; }
 
