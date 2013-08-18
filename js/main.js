@@ -25,23 +25,40 @@ var context = [
     {"title": "CSS WG Blog", "url": "http://www.w3.org/blog/CSS/", "updated": "weekly", "type": "web", "keywords": ["CSS", "Spec"], "rss": "http://www.w3.org/blog/CSS/feed/atom/", "twitter": ""},
     {"title": "W3C News", "url": "http://www.w3.org/News/", "updated": "other", "type": "web", "keywords": ["Spec"], "rss": "http://www.w3.org/News/news.rss", "twitter": "https://twitter.com/W3C"}
 ];
-Handlebars.registerHelper('rssLink', function (rssURL, title) {
-    if (typeof rssURL === "undefined" || rssURL.length == 0) {
-        return;
-    }
-    return new Handlebars.SafeString('<span class="site-rss"><a href="' + rssURL + '" title="' + title + '"><img src="img/rss-256.png" /></a></span>');
 
-});
-Handlebars.registerHelper('twitterLink', function (text) {
-    if (typeof text === "undefined" || text.length == 0) {
-        return;
-    }
-    var splitURL = text.split("/");
-    var userName = splitURL.pop();
-    return new Handlebars.SafeString('@<a href="' + text + '">' + userName + '</a>');
-});
-var source = document.getElementById("Handlebars-Template").innerHTML;
-var template = Handlebars.compile(source);
-var html = template(context);
-document.getElementById("main").innerHTML = html;
+var updatedType = {
+    "daily": "daily",
+    "weekly": "weekly",
+    "fortnightly": "fortnightly",
+    "monthly": "monthly",
+    "other": "other"
+};
+/**
+ *
+ * @param siteInfo
+ * @param {updatedType} type
+ */
+function isUpdatedType(siteInfo, type) {
+    return siteInfo["updated"] === type;
+}
+function filterByUpdateType(type) {
+    return context.filter(function (siteInfo) {
+        return isUpdatedType(siteInfo, type);
+    });
+}
 
+$(".js-filer-updated a").on("click", function (evt) {
+    evt.preventDefault();
+    var updatedType = evt.target.href.split("#").pop();
+    var newContext = filterByUpdateType(updatedType);
+    render(newContext);
+});
+$(function () {
+    render(context);
+});
+function render(sites) {
+    var source = $("#Handlebars-Template").html();
+    var template = Handlebars.compile(source);
+    var html = template(sites);
+    $("#main").html(html);
+}

@@ -15,12 +15,12 @@
     <div class="pure-u sidebar">
         <div class="nav-inner">
             <div class="pure-menu pure-menu-open">
-                <ul>
+                <ul class="js-filer-updated">
                     <li class="pure-menu-heading">更新頻度</li>
-                    <li><a><span class="site-updated-label-daily"></span>Daily</a></li>
-                    <li><a><span class="site-updated-label-weekly"></span>Weekly</a></li>
-                    <li><a><span class="site-updated-label-monthly"></span>Monthly</a></li>
-                    <li><a><span class="site-updated-label-other"></span>Other</a></li>
+                    <li><a href="#daily"><span class="site-updated-label-daily"></span>Daily</a></li>
+                    <li><a href="#weekly"><span class="site-updated-label-weekly"></span>Weekly</a></li>
+                    <li><a href="#monthly"><span class="site-updated-label-monthly"></span>Monthly</a></li>
+                    <li><a href="#other"><span class="site-updated-label-other"></span>Other</a></li>
                 </ul>
             </div>
         </div>
@@ -32,9 +32,9 @@
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="vendor/jquery/jquery.min.js"><\/script>')</script>
 <script src="vendor/handlebars.js/handlebars.js"></script>
-
+<script src="js/handlebar-extra.js"></script>
 <script id="Handlebars-Template" type="text/x-handlebars-template">
     <table class="pure-table pure-table-bordered">
         <thead>
