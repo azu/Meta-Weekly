@@ -1,0 +1,60 @@
+body {
+  color: #777777; }
+
+.sidebar {
+  left: 500px;
+  width: 150px;
+  padding: 2em 0px; }
+
+.mainContent {
+  margin: 0.75em 0.5em; }
+
+.label-mark, .site-updated-label-daily, .site-updated-label-weekly, .site-updated-label-fortnightly, .site-updated-label-monthly, .site-updated-label-other, .site-updated-label-unchecked {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 0.5em;
+  border-radius: 3px; }
+
+.site-updated-label-daily {
+  background: #ffc94c; }
+
+.site-updated-label-weekly {
+  background: #4d85d1; }
+
+.site-updated-label-fortnightly {
+  background: #d19dcb; }
+
+.site-updated-label-monthly {
+  background: #40c365; }
+
+.site-updated-label-other {
+  background: #8156a7; }
+
+.site-updated-label-unchecked {
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-sizing: border-box; }
+
+.site-rss {
+  margin-left: 0.3em; }
+  .site-rss img {
+    width: 24px;
+    vertical-align: middle; }
+
+.site-keyword {
+  margin: 0px 0.1em;
+  padding: 0.3em 1em;
+  color: white;
+  background: none repeat scroll 0% 0% #008899;
+  font-size: 80%; }
+
+.table-header-label {
+  padding: 0.5em;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
+
+.pure-table thead {
+  background: #0e90d2;
+  color: white; }

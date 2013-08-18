@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Meta Weekly</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="vendor/pure-built/pure-min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+<div class="pure-g-r content" id="layout">
+    <div class="pure-u sidebar">
+        <div class="nav-inner">
+            <div class="pure-menu pure-menu-open">
+                <ul>
+                    <li class="pure-menu-heading">更新頻度</li>
+                    <li><a><span class="site-updated-label-daily"></span>Daily</a></li>
+                    <li><a><span class="site-updated-label-weekly"></span>Weekly</a></li>
+                    <li><a><span class="site-updated-label-monthly"></span>Monthly</a></li>
+                    <li><a><span class="site-updated-label-other"></span>Other</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pure-u mainContent">
+        <div id="main">
+            <p>Pure HTML5 Boilerplate</p>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="vendor/handlebars.js/handlebars.js"></script>
+
+<script id="Handlebars-Template" type="text/x-handlebars-template">
+    <table class="pure-table pure-table-bordered">
+        <thead>
+        <tr>
+            <th><span class="table-header-label">Website</span></th>
+            <th><span class="table-header-label">Updated</span></th>
+            <th><span class="table-header-label">Keywords</span></th>
+            <th><span class="table-header-label">Twitter</span></th>
+        </tr>
+        </thead>
+        {{#each this}}
+        <tr>
+            <td><a href="{{url}}" title="{{title}}">{{title}}</a>{{rssLink rss title}}</td>
+            <td><span class="site-updated-label-{{updated}}"></span>{{updated}}</td>
+            <td>
+                {{#each keywords}}
+                <span class="site-keyword">{{this}}</span>
+                {{/each}}
+            </td>
+            <td><span class="site-twitter">{{twitterLink twitter}}</span></td>
+        </tr>
+        {{/each}}
+    </table>
+</script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

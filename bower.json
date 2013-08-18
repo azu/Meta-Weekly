@@ -1,0 +1,8 @@
+{
+    "name": "Meta-Weekly",
+    "version": "0.0.1",
+    "dependencies": {
+        "handlebars.js": "*",
+        "pure-built": "latest"
+    }
+}
