@@ -3,7 +3,7 @@ before_script:
  - npm install jsonlint -g
 script: jsonlint data.json
 after_success:
- - sh script/deploy-gh-pages.sh
+ - ./script/deploy-gh-pages.sh
 
 env:
  global:

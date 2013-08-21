@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash -e -v
 
 if [[ "$TRAVIS_PULL_REQUEST" == "true" ]]; then
 echo "This is a pull request. No deployment will be done.";
