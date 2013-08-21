@@ -1,5 +1,6 @@
 language: node_js
 before_script:
+ - npm install -g grunt-cli
  - npm install jsonlint -g
 script: jsonlint data.json
 after_success:
