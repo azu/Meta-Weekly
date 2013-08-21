@@ -1,5 +1,8 @@
 #!/bin/sh
-
+if [[ "$TRAVIS_BRANCH" != "master" ]] && [[ "$TRAVIS_BRANCH" != "staging" ]]; then
+echo "This is not a deployable branch.";
+  exit 0;
+fi
 git checkout -B gh-pages
 grunt
 git add -A
