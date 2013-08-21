@@ -1,5 +1,6 @@
 #!/bin/sh
 
+git checkout -B gh-pages
 grunt
 git add -A
 git commit -m "Update"
