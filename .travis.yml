@@ -1,9 +1,9 @@
 before_script:
-	- npm install jsonlint -g
+ - npm install jsonlint -g
 script: jsonlint data.json
 after_success:
-	- '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && sh script/deploy-gh-page.sh
+ - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && sh script/deploy-gh-page.sh
 
 env:
-	global:
-		- secure: "H2Dl37zO3mBfB9SgHTK7eCix/gQVeTcl6mX2JFUMb95LPgZ7kWfHxLJY5i07O490OmivmTl+MkUTfcmh9W4F9sERdFwjfuuWGrjWvzPnf+uC5p63BIz5xiynXsunNHntUl595qKfcy/9EGdRYYVIKFj5S8CoA9MukTX8yFuDfSs="
+ global:
+  - secure: "H2Dl37zO3mBfB9SgHTK7eCix/gQVeTcl6mX2JFUMb95LPgZ7kWfHxLJY5i07O490OmivmTl+MkUTfcmh9W4F9sERdFwjfuuWGrjWvzPnf+uC5p63BIz5xiynXsunNHntUl595qKfcy/9EGdRYYVIKFj5S8CoA9MukTX8yFuDfSs="
