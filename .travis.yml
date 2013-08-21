@@ -2,7 +2,7 @@ before_script:
  - npm install jsonlint -g
 script: jsonlint data.json
 after_success:
- - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && sh script/deploy-gh-page.sh
+ - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && sh script/deploy-gh-page.sh'
 
 env:
  global:
