@@ -22,6 +22,8 @@ echo "STATUS"
 git status
 
 echo "COMMIT"
+echo "MESSAGE :" $lastCommit
+
 git add .
-git commit -m $lastCommit
-git push --force $REPO_URL gh-pages
+git commit -m "$lastCommit"
+git push --force --quiet $REPO_URL gh-pages
