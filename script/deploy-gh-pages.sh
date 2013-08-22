@@ -8,8 +8,20 @@ if [[ "$TRAVIS_BRANCH" != "master" ]] && [[ "$TRAVIS_BRANCH" != "staging" ]]; th
 echo "This is not a deployable branch.";
   exit 0;
 fi
+
+echo "BUMP HELLO WORLD set up $GH_REPO [via travis] for $GIT_NAME <${GIT_EMAIL}>"
+export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+git config --global user.email "$GIT_EMAIL"
+git config --global user.name "$GIT_NAME"
+lastCommit=$(git log --oneline | head -n 1)
+
 git checkout -B gh-pages
 grunt
-git add -A
-git commit -m "Update"
-git push https://$GH_TOKEN@github.com/azu/Meta-Weekly.git gh-pages
+
+echo "STATUS"
+git status
+
+echo "COMMIT"
+git add .
+git commit -m $lastCommit
+git push --force $REPO_URL gh-pages
