@@ -223,5 +223,14 @@
         "keywords": ["Spec"],
         "rss": "http://www.w3.org/News/news.rss",
         "twitter": "https://twitter.com/W3C"
-    }
+    },
+    {
+        "title": "Echo JS",
+        "url": "http://www.echojs.com/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["JavaScript", "HTML5", "Library", "Tools"],
+        "rss": "http://www.echojs.com/rss",
+        "twitter": "https://twitter.com/echojs"
+   }
 ]
