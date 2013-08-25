@@ -7,5 +7,5 @@ after_success:
 - ./script/deploy-gh-pages.sh
 env:
   global:
-    - GH_REPO="azu/Meta-Weekly"
-    - secure: YLVPkH7O2m0cZI5diDh2bLRqW691O8UPItWtiS87ATz2Q/Ue0qKqy1ql50uRJbaSOWKLpHSjN/pY1v/NfWyDVNNtzBgQBjk7QzTMzwMIjjZCm/tGvN0jKuHqV9hdk7jZhzzylgmYdQiTAHywbs3tqHFKrxLOkMQrCMPyQjC1luE=
+  - GH_REPO="azu/Meta-Weekly"
+  - secure: U/uBLTsC3ZM6s4OlPC0Nl6GNUGzYOWmA58ztlv1ia28gGS7hc2NWF+2qcMOAOyr0yr+JYjjKJZej2cy65CISnOpIpfi1Lw7cww3+1+wV2TVHFN8ZzlbVZiNFTQjZlgkD0AjFLgD+a1FdmkGLinJlvf5KpbIb5GSQ0ZDA8KHDvz8=
