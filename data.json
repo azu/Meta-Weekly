@@ -186,7 +186,7 @@
         "type": "web\n",
         "keywords": ["JavaScript", "Podcast"],
         "rss": "http://feeds.feedburner.com/JavascriptJabber",
-        "twitter": ""
+        "twitter": "https://twitter.com/JSJabber"
     },
     {
         "title": "DailyJS ",
