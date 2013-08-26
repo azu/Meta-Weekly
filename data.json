@@ -259,5 +259,14 @@
         "keywords": ["HTML5", "JavaScript", "CSS3", "Tools", "Articles", "Web Trends"],
         "rss": "http://feeds2.feedburner.com/tympanus",
         "twitter": "https://twitter.com/codrops"
+   },
+   {
+        "title": "Web Appers",
+        "url": "http://www.webappers.com/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["Open Source Resources","Web Developer","Web Designer"],
+        "rss": "http://feeds2.feedburner.com/Webappers",
+        "twitter": "https://twitter.com/webappers"
    }
 ]
