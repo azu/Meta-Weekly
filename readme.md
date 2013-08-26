@@ -1,6 +1,9 @@
 # Meta Weekly [![Build Status](https://travis-ci.org/azu/Meta-Weekly.png?branch=fix_tag)](https://travis-ci.org/azu/Meta-Weekly)
 
-[Meta Weekly][] is a collection of weekly newsletter etc...
+[Meta Weekly][] is a collection of weekly JS newsletters and websites.
+
+* JavaScript
+* Front-end	
 
 ## Contributing
 
