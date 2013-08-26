@@ -15,7 +15,7 @@ Once a change has been approved, ``data.json`` is integrated into ``gh-page``.
 WebSite/e-mail newsletter is associated with 
 
 * JavaScript
-* Front-end	
+* Web Frontend
 
 ## Supported changes
 

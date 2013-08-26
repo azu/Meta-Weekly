@@ -3,7 +3,7 @@
 [Meta Weekly][] is a collection of weekly JS newsletters and websites.
 
 * JavaScript
-* Front-end	
+* Web Frontend
 
 ## Contributing
 
