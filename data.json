@@ -232,5 +232,14 @@
         "keywords": ["JavaScript", "HTML5", "Library", "Tools"],
         "rss": "http://www.echojs.com/rss",
         "twitter": "https://twitter.com/echojs"
+   },
+   {
+        "title": "CSS Weekly",
+        "url": "http://css-weekly.com/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["CSS", "Tools", "HTML", "Browser"],
+        "rss": "http://feeds.feedburner.com/CSS-Weekly",
+        "twitter": "https://twitter.com/CSSWeekly"
    }
 ]
