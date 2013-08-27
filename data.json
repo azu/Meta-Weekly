@@ -250,5 +250,14 @@
         "keywords": ["Ruby", "Library", "Tools"],
         "rss": "http://rubyweekly.com/rss",
         "twitter": "https://twitter.com/peterc"
+   },
+   {
+        "title": "jquer.in",
+        "url": "http://jquer.in/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["jQuery", "JavaScript", "Plugin"],
+        "rss": "http://feeds.feedburner.com/Jquerin",
+        "twitter": "https://twitter.com/techiejayk"
    }
 ]
