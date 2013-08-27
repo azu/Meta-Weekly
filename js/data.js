@@ -50,7 +50,7 @@ MyJSONData["data.json"] = [
         "url": "http://webplatformdaily.org/",
         "updated": "daily",
         "type": "web",
-        "keywords": ["Web", "Spec", "HTML", "CSS", "JavaScript", "SNS"],
+        "keywords": ["Web", "Spec", "HTML", "CSS", "JavaScript"],
         "rss": "",
         "twitter": "https://twitter.com/simevidas"
     },
@@ -142,7 +142,7 @@ MyJSONData["data.json"] = [
         "type": "web",
         "keywords": ["HTML", "CSS", "JavaScript", "Browser", "Tools"],
         "rss": "http://jser.info/rss",
-        "twitter": "https://twitter.com/jser_info"
+        "twitter": "https://twitter.com/azu_re"
     },
     {
         "title": "斉藤祐也の海外WEBテク定点観測",
@@ -187,7 +187,7 @@ MyJSONData["data.json"] = [
         "type": "web\n",
         "keywords": ["JavaScript", "Podcast"],
         "rss": "http://feeds.feedburner.com/JavascriptJabber",
-        "twitter": ""
+        "twitter": "https://twitter.com/JSJabber"
     },
     {
         "title": "DailyJS ",
@@ -224,5 +224,50 @@ MyJSONData["data.json"] = [
         "keywords": ["Spec"],
         "rss": "http://www.w3.org/News/news.rss",
         "twitter": "https://twitter.com/W3C"
-    }
-];
+    },
+    {
+        "title": "Echo JS",
+        "url": "http://www.echojs.com/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["JavaScript", "HTML5", "Library", "Tools"],
+        "rss": "http://www.echojs.com/rss",
+        "twitter": "https://twitter.com/echojs"
+   },
+   {
+        "title": "CSS Weekly",
+        "url": "http://css-weekly.com/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["CSS", "Tools", "HTML", "Browser"],
+        "rss": "http://feeds.feedburner.com/CSS-Weekly",
+        "twitter": "https://twitter.com/CSSWeekly"
+   },
+   {
+        "title": "Ruby Weekly",
+        "url": "http://rubyweekly.com/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["Ruby", "Library", "Tools"],
+        "rss": "http://rubyweekly.com/rss",
+        "twitter": "https://twitter.com/peterc"
+   },
+   {
+        "title": "jquer.in",
+        "url": "http://jquer.in/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["jQuery", "JavaScript", "Plugin"],
+        "rss": "http://feeds.feedburner.com/Jquerin",
+        "twitter": "https://twitter.com/techiejayk"
+   },
+   {
+        "title": "Backbone Weekly",
+        "url": "http://backboneweekly.com/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["BackboneJS", "JavaScript"],
+        "twitter": "https://twitter.com/BackboneWeekly"
+   }
+]
+;
