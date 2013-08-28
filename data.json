@@ -259,5 +259,13 @@
         "keywords": ["jQuery", "JavaScript", "Plugin"],
         "rss": "http://feeds.feedburner.com/Jquerin",
         "twitter": "https://twitter.com/techiejayk"
+   },
+   {
+        "title": "Backbone Weekly",
+        "url": "http://backboneweekly.com/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["BackboneJS", "JavaScript"],
+        "twitter": "https://twitter.com/BackboneWeekly"
    }
 ]
