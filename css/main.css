@@ -2,21 +2,11 @@ body {
   color: #777777; }
 
 .sidebar {
-  padding: 1em 0px; }
-
-.mainContent {
-  margin: 0.75em 0.5em; }
-
-.label-mark, .site-updated-label-daily, .site-updated-label-weekly, .site-updated-label-fortnightly, .site-updated-label-monthly, .site-updated-label-other, .site-updated-label-unchecked {
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  margin-right: 0.5em;
-  border-radius: 3px; }
+  margin: 1em 0 0 1em; }
 
 .nav-updated-helper {
   text-align: center;
-  padding: 5px 0;
+  padding-top: 9px;
   display: none; }
 
 .pure-button-warning {
@@ -25,6 +15,19 @@ body {
   border-radius: 4px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   background: #df7514; }
+
+.js-filer-updated .pure-menu-heading {
+  margin-top: 0;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-size: 100%; }
+
+.label-mark, .site-updated-label-daily, .site-updated-label-weekly, .site-updated-label-fortnightly, .site-updated-label-monthly, .site-updated-label-other, .site-updated-label-unchecked {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 0.5em;
+  border-radius: 3px; }
 
 .site-updated-label-daily {
   background: #ffc94c; }
@@ -46,25 +49,32 @@ body {
   border: 1px solid #dddddd;
   box-sizing: border-box; }
 
-.site-rss {
-  margin-left: 0.3em; }
-  .site-rss img {
-    width: 24px;
-    vertical-align: middle; }
+.github-label img {
+  margin-right: 0.3em;
+  vertical-align: -25%; }
 
-.site-keyword {
-  margin: 0px 0.1em;
-  padding: 0.3em 1em;
-  color: white;
-  background: none repeat scroll 0% 0% #008899;
-  font-size: 80%; }
-
-.table-header-label {
-  padding: 0.5em;
-  letter-spacing: 0.1em;
-  font-weight: normal;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
+.mainContent {
+  margin: 1em; }
 
 .pure-table thead {
   background: #0e90d2;
   color: white; }
+
+.table-header-label {
+  padding: 0;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
+
+.site-rss {
+  margin-left: 0.3em; }
+  .site-rss img {
+    width: 24px;
+    vertical-align: -25%; }
+
+.site-keyword {
+  padding: 0 0.5em;
+  display: inline-block;
+  color: white;
+  background-color: #008899;
+  font-size: 80%; }

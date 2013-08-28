@@ -3,11 +3,28 @@ body {
 }
 
 .sidebar {
-  padding: 1em 0px;
+  margin: 1em 0 0 1em;
 }
 
-.mainContent {
-  margin: 0.75em 0.5em;
+.nav-updated-helper {
+  text-align: center;
+  padding-top: (6px * 1.5);
+  display: none;
+}
+
+.pure-button-warning {
+  margin: 0 auto;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(223, 117, 20);
+}
+
+.js-filer-updated .pure-menu-heading {
+  margin-top: 0;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  font-size: 100%;
 }
 
 .label-mark {
@@ -24,19 +41,6 @@ $fortnightly-color: #d19dcb;
 $monthly-color: #40c365;
 $other-color: #8156a7;
 $twitter-color: #5AB4C8;
-.nav-updated-helper {
-  text-align: center;
-  padding: 5px 0;
-  display: none;
-}
-
-.pure-button-warning {
-  margin: 0 auto;
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(223, 117, 20);
-}
 
 .site-updated-label-daily {
   @extend .label-mark;
@@ -70,30 +74,39 @@ $twitter-color: #5AB4C8;
   box-sizing: border-box;
 }
 
-.site-rss {
-  margin-left: 0.3em;
-  img {
-    width: 24px;
-    vertical-align: middle;
-  }
+.github-label img {
+  margin-right: 0.3em;
+  vertical-align: (- percentage((1.5em - 1em) / 1em) / 2); // `1.5em` is `line-height` value
 }
 
-.site-keyword {
-  margin: 0px 0.1em;
-  padding: 0.3em 1em;
-  color: rgb(255, 255, 255);
-  background: none repeat scroll 0% 0% #008899;
-  font-size: 80%;
-}
-
-.table-header-label {
-  padding: 0.5em;
-  letter-spacing: 0.1em;
-  font-weight: normal;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+.mainContent {
+  margin: 1em;
 }
 
 .pure-table thead {
   background: rgb(14, 144, 210);
   color: rgb(255, 255, 255);
+}
+
+.table-header-label {
+  padding: 0;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.site-rss {
+  margin-left: 0.3em;
+  img {
+    width: 24px;
+    vertical-align: (- percentage((1.5em - 1em) / 1em) / 2);
+  }
+}
+
+.site-keyword {
+  padding: 0 0.5em;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  background-color: #008899;
+  font-size: 80%;
 }
