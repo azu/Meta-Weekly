@@ -276,5 +276,14 @@
         "keywords": ["JavaScript", "Podcast"],
         "rss": "http://feeds.feedburner.com/jsclassesblog-xml",
         "twitter": "https://twitter.com/jsclassesearly"
+    },
+    {
+        "title": "Ember Hot Seat",
+        "url": "http://emberhotseat.com/",
+        "updated": "weekly",
+        "type": "web",
+        "keywords": ["Ember.js", "JavaScript", "Podcast"],
+        "rss": "http://emberhotseat.com/feed/index.rss",
+        "twitter": "https://twitter.com/emberhotseat"
     }
 ]
