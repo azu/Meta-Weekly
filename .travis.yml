@@ -2,7 +2,7 @@ language: node_js
 before_script:
 - npm install -g grunt-cli
 - npm install -g jsonlint
-script: jsonlint data.json
+script: npm test
 after_success:
 - ./script/deploy-gh-pages.sh
 env:

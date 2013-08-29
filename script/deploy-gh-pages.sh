@@ -18,12 +18,12 @@ lastCommit=$(git log --oneline | head -n 1)
 git checkout -B gh-pages
 grunt
 
-echo "STATUS"
+echo "=STATUS="
 git status
 
-echo "COMMIT"
+echo "=COMMIT="
 echo "MESSAGE :" $lastCommit
 
 git add .
-git commit -m "$lastCommit"
-git push --force --quiet $REPO_URL gh-pages
+git commit -m "Build gh-pages: $lastCommit"
+git push --quiet $REPO_URL gh-pages 2> /dev/null
