@@ -285,5 +285,14 @@
         "keywords": ["Ember.js", "JavaScript", "Podcast"],
         "rss": "http://emberhotseat.com/feed/index.rss",
         "twitter": "https://twitter.com/emberhotseat"
+    },
+    {
+        "title": "YUI Weekly",
+        "url": "http://www.yuiblog.com/blog/category/yui-weekly/",
+        "updated": "weekly",
+        "type": "web",
+        "keywords": ["JavaScript", "Library", "YUI"],
+        "rss": "http://www.yuiblog.com/blog/category/yui-weekly/feed/",
+        "twitter": "https://twitter.com/yuilibrary"
     }
 ]
