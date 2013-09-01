@@ -25,5 +25,5 @@ echo "=COMMIT="
 echo "MESSAGE :" $lastCommit
 
 git add .
-git commit -m "Build gh-pages: $lastCommit"
-git push --quiet $REPO_URL gh-pages 2> /dev/null
+git commit -q -m "Travis build $TRAVIS_BUILD_NUMBER"
+git push -fq $REPO_URL gh-pages 2> /dev/null
