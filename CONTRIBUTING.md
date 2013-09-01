@@ -24,8 +24,8 @@ Currently the following feature information can be modified:
 * **title** — WebSite name (used for the title of the table)
 * **url** — WebSite URL
 * **type** — Way of delivery
-	* mail
-	* web — contain website,podcast,video...
+	* "mail" — email newsletters
+	* "web" — contain website,podcast,video...
 * **updated** — Frequency of update
     * "daily"
     * "weekly"
