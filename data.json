@@ -243,15 +243,6 @@
         "twitter": "https://twitter.com/CSSWeekly"
     },
     {
-        "title": "Ruby Weekly",
-        "url": "http://rubyweekly.com/",
-        "updated": "weekly",
-        "type": "mail",
-        "keywords": ["Ruby", "Library", "Tools"],
-        "rss": "http://rubyweekly.com/rss",
-        "twitter": "https://twitter.com/peterc"
-    },
-    {
         "title": "jquer.in",
         "url": "http://jquer.in/",
         "updated": "daily",
