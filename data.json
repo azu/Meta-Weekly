@@ -50,7 +50,7 @@
         "updated": "daily",
         "type": "web",
         "keywords": ["Web", "Spec", "HTML", "CSS", "JavaScript"],
-        "rss": "",
+        "rss": "http://feeds.feedburner.com/OpenWebPlatformDailyDigest",
         "twitter": "https://twitter.com/simevidas"
     },
     {
