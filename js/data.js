@@ -51,7 +51,7 @@ MyJSONData["data.json"] = [
         "updated": "daily",
         "type": "web",
         "keywords": ["Web", "Spec", "HTML", "CSS", "JavaScript"],
-        "rss": "",
+        "rss": "http://feeds.feedburner.com/OpenWebPlatformDailyDigest",
         "twitter": "https://twitter.com/simevidas"
     },
     {
@@ -233,8 +233,8 @@ MyJSONData["data.json"] = [
         "keywords": ["JavaScript", "HTML5", "Library", "Tools"],
         "rss": "http://www.echojs.com/rss",
         "twitter": "https://twitter.com/echojs"
-   },
-   {
+    },
+    {
         "title": "CSS Weekly",
         "url": "http://css-weekly.com/",
         "updated": "weekly",
@@ -242,32 +242,50 @@ MyJSONData["data.json"] = [
         "keywords": ["CSS", "Tools", "HTML", "Browser"],
         "rss": "http://feeds.feedburner.com/CSS-Weekly",
         "twitter": "https://twitter.com/CSSWeekly"
-   },
-   {
-        "title": "Ruby Weekly",
-        "url": "http://rubyweekly.com/",
-        "updated": "weekly",
-        "type": "mail",
-        "keywords": ["Ruby", "Library", "Tools"],
-        "rss": "http://rubyweekly.com/rss",
-        "twitter": "https://twitter.com/peterc"
-   },
-   {
+    },
+    {
         "title": "jquer.in",
         "url": "http://jquer.in/",
         "updated": "daily",
         "type": "web",
         "keywords": ["jQuery", "JavaScript", "Plugin"],
         "rss": "http://feeds.feedburner.com/Jquerin",
-        "twitter": "https://twitter.com/techiejayk"
-   },
-   {
+        "twitter": "https://twitter.com/jquer_in"
+    },
+    {
         "title": "Backbone Weekly",
         "url": "http://backboneweekly.com/",
         "updated": "weekly",
         "type": "mail",
         "keywords": ["BackboneJS", "JavaScript"],
         "twitter": "https://twitter.com/BackboneWeekly"
-   }
+    },
+    {
+        "title": "JS Classes blog",
+        "url": "http://www.jsclasses.org/blog/",
+        "updated": "monthly",
+        "type": "web",
+        "keywords": ["JavaScript", "Podcast"],
+        "rss": "http://feeds.feedburner.com/jsclassesblog-xml",
+        "twitter": "https://twitter.com/jsclassesearly"
+    },
+    {
+        "title": "Ember Hot Seat",
+        "url": "http://emberhotseat.com/",
+        "updated": "weekly",
+        "type": "web",
+        "keywords": ["Ember.js", "JavaScript", "Podcast"],
+        "rss": "http://emberhotseat.com/feed/index.rss",
+        "twitter": "https://twitter.com/emberhotseat"
+    },
+    {
+        "title": "YUI Weekly",
+        "url": "http://www.yuiblog.com/blog/category/yui-weekly/",
+        "updated": "weekly",
+        "type": "web",
+        "keywords": ["JavaScript", "Library", "YUI"],
+        "rss": "http://www.yuiblog.com/blog/category/yui-weekly/feed/",
+        "twitter": "https://twitter.com/yuilibrary"
+    }
 ]
 ;

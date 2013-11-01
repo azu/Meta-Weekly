@@ -24,6 +24,6 @@ git status
 echo "=COMMIT="
 echo "MESSAGE :" $lastCommit
 
-git add .
+git add --all .
 git commit -q -m "Travis build $TRAVIS_BUILD_NUMBER"
 git push -fq $REPO_URL gh-pages 2> /dev/null
