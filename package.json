@@ -1,6 +1,10 @@
 {
     "name": "Meta-Weekly",
     "version": "0.0.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/azu/Meta-Weekly.git"
+    },
     "scripts": {
         "test": "sh script/run_test.sh"
     },
@@ -12,7 +16,7 @@
         "grunt-contrib-uglify": "~0.2.0",
         "grunt-regarde": "~0.1.1",
         "grunt": "~0.4.1",
-        "grunt-bower-task": "~0.3.1",
+        "grunt-bower-task": "~0.3",
         "grunt-contrib-watch": "~0.5.2",
         "grunt-contrib-handlebars": "~0.5.10",
         "grunt-json": "~0.1.3",
