@@ -286,6 +286,15 @@ MyJSONData["data.json"] = [
         "keywords": ["JavaScript", "Library", "YUI"],
         "rss": "http://www.yuiblog.com/blog/category/yui-weekly/feed/",
         "twitter": "https://twitter.com/yuilibrary"
+    },
+    {
+        "title": "CSS Author",
+        "url": "http://www.cssauthor.com/",
+        "updated": "weekly",
+        "type": "web",
+        "keywords": ["Design", "HTML", "CSS", "UI", "Tools"],
+        "rss": "http://www.cssauthor.com/feed/",
+        "twitter": "https://twitter.com/cssauthor"
     }
 ]
 ;

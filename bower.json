@@ -2,7 +2,7 @@
     "name": "Meta-Weekly",
     "version": "0.0.1",
     "dependencies": {
-        "handlebars.js": "*",
+        "handlebars": "1.2.1",
         "pure-built": "latest",
         "jquery": "1.9.*"
     }
