@@ -294,5 +294,13 @@
         "keywords": ["Design", "HTML", "CSS", "UI", "Tools"],
         "rss": "http://www.cssauthor.com/feed/",
         "twitter": "https://twitter.com/cssauthor"
+    },
+    {
+        "title": "Harp Weekly",
+        "url": "http://harpjs.com/blog/",
+        "updated": "weekly",
+        "type": "web",
+        "keywords": ["Web", "Server", "Tools", "Harp"],
+        "twitter": "https://twitter.com/harpwebserver"
     }
 ]
