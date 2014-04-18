@@ -293,5 +293,14 @@
         "type": "web",
         "keywords": ["Web", "Server", "Tools", "Harp"],
         "twitter": "https://twitter.com/harpwebserver"
+    },
+    {
+        "title": "Mobile Web Weekly",
+        "url": "http://mobilewebweekly.co/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["Web", "Mobile", "HTML", "CSS"],
+        "rss": "http://mobilewebweekly.co/rss/181ehl3i",
+        "twitter": ""
     }
 ]
