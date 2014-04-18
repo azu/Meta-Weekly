@@ -153,15 +153,6 @@
         "twitter": "https://twitter.com/html5exp"
     },
     {
-        "title": "News Links | Unformed Building",
-        "url": "http://unformedbuilding.com/articles/news/",
-        "updated": "monthly",
-        "type": "web",
-        "keywords": ["Design", "HTML", "CSS"],
-        "rss": "http://unformedbuilding.com/feed/",
-        "twitter": "https://twitter.com/ub_pnr"
-    },
-    {
         "title": "Titanium News",
         "url": "http://ti-news.hatenablog.jp/",
         "updated": "weekly",
