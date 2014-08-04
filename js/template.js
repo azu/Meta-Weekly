@@ -8,36 +8,34 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
 
 function program1(depth0,data) {
   
-  var buffer = "", stack1, stack2, options;
+  var buffer = "", stack1, helper, options;
   buffer += "\n    <tr>\n        <td><a href=\"";
-  if (stack1 = helpers.url) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0.url; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  if (helper = helpers.url) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.url); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
     + "\" title=\"";
-  if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
     + "\">";
-  if (stack1 = helpers.title) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0.title; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
+  if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</a>";
-  options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.rssLink || depth0.rssLink),stack1 ? stack1.call(depth0, depth0.rss, depth0.title, options) : helperMissing.call(depth0, "rssLink", depth0.rss, depth0.title, options)))
+    + "</a>"
+    + escapeExpression((helper = helpers.rssLink || (depth0 && depth0.rssLink),options={hash:{},data:data},helper ? helper.call(depth0, (depth0 && depth0.rss), (depth0 && depth0.title), options) : helperMissing.call(depth0, "rssLink", (depth0 && depth0.rss), (depth0 && depth0.title), options)))
     + "</td>\n        <td><span class=\"site-updated-label-";
-  if (stack2 = helpers.updated) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
-  else { stack2 = depth0.updated; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
-  buffer += escapeExpression(stack2)
+  if (helper = helpers.updated) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.updated); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
     + "\"></span>";
-  if (stack2 = helpers.updated) { stack2 = stack2.call(depth0, {hash:{},data:data}); }
-  else { stack2 = depth0.updated; stack2 = typeof stack2 === functionType ? stack2.apply(depth0) : stack2; }
-  buffer += escapeExpression(stack2)
+  if (helper = helpers.updated) { stack1 = helper.call(depth0, {hash:{},data:data}); }
+  else { helper = (depth0 && depth0.updated); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
+  buffer += escapeExpression(stack1)
     + "</td>\n        <td>\n            ";
-  stack2 = helpers.each.call(depth0, depth0.keywords, {hash:{},inverse:self.noop,fn:self.program(2, program2, data),data:data});
-  if(stack2 || stack2 === 0) { buffer += stack2; }
-  buffer += "\n        </td>\n        <td><span class=\"site-twitter\">";
-  options = {hash:{},data:data};
-  buffer += escapeExpression(((stack1 = helpers.twitterLink || depth0.twitterLink),stack1 ? stack1.call(depth0, depth0.twitter, options) : helperMissing.call(depth0, "twitterLink", depth0.twitter, options)))
+  stack1 = helpers.each.call(depth0, (depth0 && depth0.keywords), {hash:{},inverse:self.noop,fn:self.program(2, program2, data),data:data});
+  if(stack1 || stack1 === 0) { buffer += stack1; }
+  buffer += "\n        </td>\n        <td><span class=\"site-twitter\">"
+    + escapeExpression((helper = helpers.twitterLink || (depth0 && depth0.twitterLink),options={hash:{},data:data},helper ? helper.call(depth0, (depth0 && depth0.twitter), options) : helperMissing.call(depth0, "twitterLink", (depth0 && depth0.twitter), options)))
     + "</span></td>\n    </tr>\n    ";
   return buffer;
   }

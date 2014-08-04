@@ -100,6 +100,15 @@ MyJSONData["data.json"] = [
         "twitter": "https://twitter.com/reswebdes"
     },
     {
+        "title": "angular-js.in",
+        "url": "http://www.angular-js.in/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["AngularJS", "JavaScript"],
+        "rss": "http://angular-js.in/feed/",
+        "twitter": "https://twitter.com/ng_directives"
+    },
+    {
         "title": "ng-newsletter",
         "url": "http://www.ng-newsletter.com/",
         "updated": "weekly",
@@ -152,15 +161,6 @@ MyJSONData["data.json"] = [
         "keywords": ["HTML", "CSS", "JavaScript", "Browser", "Tools"],
         "rss": "http://html5experts.jp/feed/",
         "twitter": "https://twitter.com/html5exp"
-    },
-    {
-        "title": "News Links | Unformed Building",
-        "url": "http://unformedbuilding.com/articles/news/",
-        "updated": "monthly",
-        "type": "web",
-        "keywords": ["Design", "HTML", "CSS"],
-        "rss": "http://unformedbuilding.com/feed/",
-        "twitter": "https://twitter.com/ub_pnr"
     },
     {
         "title": "Titanium News",
@@ -303,6 +303,15 @@ MyJSONData["data.json"] = [
         "type": "web",
         "keywords": ["Web", "Server", "Tools", "Harp"],
         "twitter": "https://twitter.com/harpwebserver"
+    },
+    {
+        "title": "Mobile Web Weekly",
+        "url": "http://mobilewebweekly.co/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["Web", "Mobile", "HTML", "CSS"],
+        "rss": "http://mobilewebweekly.co/rss/181ehl3i",
+        "twitter": ""
     }
 ]
 ;
