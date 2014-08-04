@@ -99,6 +99,15 @@
         "twitter": "https://twitter.com/reswebdes"
     },
     {
+        "title": "angular-js.in",
+        "url": "http://www.angular-js.in/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["AngularJS", "JavaScript"],
+        "rss": "http://angular-js.in/feed/",
+        "twitter": "https://twitter.com/ng_directives"
+    },
+    {
         "title": "ng-newsletter",
         "url": "http://www.ng-newsletter.com/",
         "updated": "weekly",
