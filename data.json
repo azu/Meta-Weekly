@@ -189,15 +189,6 @@
         "twitter": "https://twitter.com/dailyjs"
     },
     {
-        "title": "JSMag",
-        "url": "http://www.jsmag.com/",
-        "updated": "monthly",
-        "type": "web",
-        "keywords": ["JavaScript"],
-        "rss": "http://www.jsmag.com/blog/feed/rss/",
-        "twitter": "https://twitter.com/jsmag"
-    },
-    {
         "title": "CSS WG Blog",
         "url": "http://www.w3.org/blog/CSS/",
         "updated": "weekly",
