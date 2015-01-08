@@ -162,15 +162,6 @@
         "twitter": ""
     },
     {
-        "title": "Remote Synthesis",
-        "url": "http://www.remotesynthesis.com/",
-        "updated": "weekly",
-        "type": "web",
-        "keywords": ["HTML", "CSS", "JavaScript", "Mobile"],
-        "rss": "http://www.remotesynthesis.com/feeds/rss.cfm",
-        "twitter": "https://twitter.com/remotesynth"
-    },
-    {
         "title": "JavaScript Jabber",
         "url": "http://javascriptjabber.com/",
         "updated": "weekly",
