@@ -90,15 +90,6 @@
         "twitter": "https://twitter.com/wdweekly"
     },
     {
-        "title": "Responsive Design Weekly",
-        "url": "http://responsivedesignweekly.com/",
-        "updated": "weekly",
-        "type": "mail",
-        "keywords": ["Design", "CSS"],
-        "rss": "http://responsivedesignweekly.com/feed/",
-        "twitter": "https://twitter.com/reswebdes"
-    },
-    {
         "title": "angular-js.in",
         "url": "http://www.angular-js.in/",
         "updated": "daily",
