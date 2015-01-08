@@ -311,5 +311,14 @@
         "keywords": ["Web", "Mobile", "HTML", "CSS"],
         "rss": "http://mobilewebweekly.co/rss/181ehl3i",
         "twitter": ""
+    },
+    {
+        "title": "Front-end Dev Weekly",
+        "url": "https://frontenddevweekly.curated.co/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["Web", "News", "JavaScript", "Tools", "Library"],
+        "rss": "https://frontenddevweekly.curated.co/issues.rss",
+        "twitter": "https://twitter.com/gvinter"
     }
 ]
