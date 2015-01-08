@@ -108,15 +108,6 @@
         "twitter": "https://twitter.com/ngnewsletter"
     },
     {
-        "title": "Peter Beverloo",
-        "url": "http://peter.sh/",
-        "updated": "weekly",
-        "type": "web",
-        "keywords": ["Chrome", "Blink", "Browser"],
-        "rss": "http://peter.sh/feed/",
-        "twitter": "https://twitter.com/beverloo"
-    },
-    {
         "title": "Surfin' Safari - The WebKit Blog",
         "url": "https://www.webkit.org/blog/",
         "updated": "weekly",
