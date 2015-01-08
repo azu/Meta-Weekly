@@ -243,14 +243,6 @@
         "twitter": "https://twitter.com/jquer_in"
     },
     {
-        "title": "Backbone Weekly",
-        "url": "http://backboneweekly.com/",
-        "updated": "weekly",
-        "type": "mail",
-        "keywords": ["BackboneJS", "JavaScript"],
-        "twitter": "https://twitter.com/BackboneWeekly"
-    },
-    {
         "title": "JS Classes blog",
         "url": "http://www.jsclasses.org/blog/",
         "updated": "monthly",
