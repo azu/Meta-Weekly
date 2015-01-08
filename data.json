@@ -153,15 +153,6 @@
         "twitter": "https://twitter.com/azu_re"
     },
     {
-        "title": "斉藤祐也の海外WEBテク定点観測",
-        "url": "http://html5experts.jp/cssradar/",
-        "updated": "fortnightly",
-        "type": "web",
-        "keywords": ["HTML", "CSS", "JavaScript", "Browser", "Tools"],
-        "rss": "http://html5experts.jp/feed/",
-        "twitter": "https://twitter.com/html5exp"
-    },
-    {
         "title": "Titanium News",
         "url": "http://ti-news.hatenablog.jp/",
         "updated": "weekly",
