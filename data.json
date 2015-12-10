@@ -249,5 +249,14 @@
         "keywords": ["Web", "News", "JavaScript", "Tools", "Library"],
         "rss": "https://frontenddevweekly.curated.co/issues.rss",
         "twitter": "https://twitter.com/gvinter"
+    },
+    {
+        "title": "Web Audio Weekly",
+        "url": "http://blog.chrislowis.co.uk/waw.html",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["WebAudio", "JavaScript", "News"],
+        "rss": "http://feeds.feedburner.com/ChrisLowis",
+        "twitter": "https://twitter.com/chrislowis"
     }
 ]
