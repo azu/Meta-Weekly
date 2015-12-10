@@ -251,6 +251,15 @@
         "twitter": "https://twitter.com/gvinter"
     },
     {
+        "title": "Frontend Weekly",
+        "url": "https://frontendweekly.tokyo/",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["Web", "News", "JavaScript", "CSS", "Library"],
+        "rss": "",
+        "twitter": "https://twitter.com/cssradar"
+    },
+    {
         "title": "Web Audio Weekly",
         "url": "http://blog.chrislowis.co.uk/waw.html",
         "updated": "weekly",
