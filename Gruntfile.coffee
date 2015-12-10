@@ -42,5 +42,6 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-handlebars'
   grunt.loadNpmTasks 'grunt-json'
 
-  grunt.registerTask 'default', ['bower:install', 'handlebars', 'json']
+  grunt.registerTask 'install', ['bower:install']
+  grunt.registerTask 'build', ['handlebars', 'json']
 

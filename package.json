@@ -8,11 +8,14 @@
     "url": "https://github.com/azu/Meta-Weekly.git"
   },
   "scripts": {
+    "prepublish": "grunt install",
+    "build": "grunt build",
     "test": "sh script/run_test.sh"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-bower-task": "^0.4.0",
+    "grunt-cli": "^0.1.13",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-concat": "^0.5.0",
     "grunt-contrib-connect": "^0.8.0",
