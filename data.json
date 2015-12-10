@@ -267,5 +267,14 @@
         "keywords": ["WebAudio", "JavaScript", "News"],
         "rss": "http://feeds.feedburner.com/ChrisLowis",
         "twitter": "https://twitter.com/chrislowis"
+    },
+    {
+        "title": "SVG Weekly",
+        "url": "http://svgweekly.us11.list-manage.com/subscribe?u=686a803632fba1647d7568aae&id=7da0c99ae4",
+        "updated": "weekly",
+        "type": "mail",
+        "keywords": ["SVG", "JavaScript", "News"],
+        "rss": "us11.campaign-archive1.com/feed?u=686a803632fba1647d7568aae&id=7da0c99ae4",
+        "twitter": "https://twitter.com/svgweekly"
     }
 ]
