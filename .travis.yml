@@ -1,7 +1,6 @@
 sudo: false
 language: node_js
 before_script:
-- npm install -g grunt-cli
 - npm install -g jsonlint
 script: npm test
 after_success:

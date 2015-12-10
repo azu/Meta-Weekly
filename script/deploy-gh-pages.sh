@@ -16,7 +16,7 @@ git config --global user.name "$GIT_NAME"
 lastCommit=$(git log --oneline | head -n 1)
 
 git checkout -B gh-pages
-grunt
+npm run build
 
 echo "=STATUS="
 git status
