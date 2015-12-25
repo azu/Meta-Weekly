@@ -108,7 +108,7 @@
         "twitter": "https://twitter.com/ngnewsletter"
     },
     {
-        "title": "Surfin' Safari - The WebKit Blog",
+        "title": "The WebKit Blog",
         "url": "https://www.webkit.org/blog/",
         "updated": "weekly",
         "type": "web",
@@ -126,15 +126,6 @@
         "twitter": "https://twitter.com/jser_info"
     },
     {
-        "title": "Titanium News",
-        "url": "http://ti-news.hatenablog.jp/",
-        "updated": "weekly",
-        "type": "web",
-        "keywords": ["JavaScript", "Titanium"],
-        "rss": "http://ti-news.hatenablog.jp/feed",
-        "twitter": ""
-    },
-    {
         "title": "JavaScript Jabber",
         "url": "http://javascriptjabber.com/",
         "updated": "weekly",
@@ -142,15 +133,6 @@
         "keywords": ["JavaScript", "Podcast"],
         "rss": "http://feeds.feedburner.com/JavascriptJabber",
         "twitter": "https://twitter.com/JSJabber"
-    },
-    {
-        "title": "DailyJS ",
-        "url": "http://dailyjs.com/",
-        "updated": "daily",
-        "type": "web",
-        "keywords": ["JavaScript"],
-        "rss": "http://feeds.feedburner.com/dailyjs",
-        "twitter": "https://twitter.com/dailyjs"
     },
     {
         "title": "CSS WG Blog",
