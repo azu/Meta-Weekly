@@ -267,5 +267,14 @@
         "keywords": ["SVG", "accessibility", "News"],
         "rss": "http://ssvvgg.net/rss",
         "twitter": "https://twitter.com/sssssvg"
+    },
+    {
+        "title": "ECMAScript Daily",
+        "url": "https://ecmascript-daily.github.io/",
+        "updated": "daily",
+        "type": "web",
+        "keywords": ["ECMAScript", "JavaScript"],
+        "rss": "https://ecmascript-daily.github.io/atom.xml",
+        "twitter": "https://twitter.com/ecmascriptdaily"
     }
 ]
