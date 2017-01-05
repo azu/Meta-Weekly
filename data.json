@@ -108,15 +108,6 @@
         "twitter": "https://twitter.com/ngnewsletter"
     },
     {
-        "title": "The WebKit Blog",
-        "url": "https://www.webkit.org/blog/",
-        "updated": "weekly",
-        "type": "web",
-        "keywords": ["Webkit", "Safari", "Browser"],
-        "rss": "https://www.webkit.org/blog/feed/",
-        "twitter": ""
-    },
-    {
         "title": "JSer.info",
         "url": "http://jser.info/",
         "updated": "weekly",
